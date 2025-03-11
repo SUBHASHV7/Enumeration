@@ -1,4 +1,4 @@
-# Enumeration
+![Screenshot 2025-03-11 143455](https://github.com/user-attachments/assets/a237d137-e66a-43af-a1a9-5631322ff005)# Enumeration
 Enumeration Techniques
 
 # Explore Google hacking and enumeration 
@@ -64,8 +64,8 @@ link: This operator allows you to search for pages that link to a specific URL. 
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
+![Screenshot 2025-03-11 143455](https://github.com/user-attachments/assets/a746d574-7fa8-4a58-9f49-1c7e5223c7d0)
 
- 
 #DNS Enumeration
 
 
@@ -77,11 +77,7 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
 
-
-
-
-
-
+![Screenshot 2025-03-10 113347](https://github.com/user-attachments/assets/f57ef2a0-63f7-4428-b78d-f9bf9344294f)
 
 ##dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
@@ -97,6 +93,8 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+![Screenshot 2025-03-10 113402](https://github.com/user-attachments/assets/2100f70c-f914-4b09-b3f7-49163746606c)
+![Screenshot 2025-03-10 113422](https://github.com/user-attachments/assets/e1ce01a1-8ef2-49f2-80ee-d1ac83826db4)
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
@@ -106,6 +104,8 @@ In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 select any username in the first column of the above file and check the same
 
+![Screenshot 2025-03-10 113549](https://github.com/user-attachments/assets/a8865b34-de0d-4c47-beb9-f9d3d69e0fdd)
+
 
 #Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
@@ -114,16 +114,14 @@ and issue appropriate commands
   
  ##Output
   
-  
+![Screenshot 2025-03-11 144104](https://github.com/user-attachments/assets/dabc5c03-93a5-4268-8487-b5e26d1b4835)
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
-
 ## OUTPUT:
-
+![Screenshot 2025-03-10 113610](https://github.com/user-attachments/assets/4b95618d-ce79-4836-8665-4c16863926a3)
 
 ## RESULT:
-The Google hacking keywords and enumeration tools were identified and executed successfully
-
+The Google hacking keywords and enumeration tools were identified and executed successfully.
