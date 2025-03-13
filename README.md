@@ -1,4 +1,4 @@
-![Screenshot 2025-03-11 143455](https://github.com/user-attachments/assets/a237d137-e66a-43af-a1a9-5631322ff005)# Enumeration
+# Enumeration
 Enumeration Techniques
 
 # Explore Google hacking and enumeration 
@@ -26,50 +26,57 @@ Open terminal and try execute some kali linux commands
 Following Categories of pen test tools are identified:
 Information Gathering.
 
-Google Hacking:
+## Google Hacking:
 
 Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
 
-site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
+## site: 
+This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
 ![WhatsApp Image 2025-03-10 at 11 35 31_66067782](https://github.com/user-attachments/assets/2728cfbe-c2a8-4c2a-8c2b-966fcdf72a4a)
 
 
-filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
+## filetype: 
+This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain youtube.com
 
 ![WhatsApp Image 2025-03-10 at 11 35 31_aca2838a](https://github.com/user-attachments/assets/ade2d22d-e221-46f5-af5b-55eaffbc995a)
 
 
-intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+## intext: 
+This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
 ![WhatsApp Image 2025-03-10 at 11 35 31_64e70d72](https://github.com/user-attachments/assets/9a7dac25-7c45-4bb3-9d34-537c2723308f)
 
 
-inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+## inurl: 
+This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
 ![WhatsApp Image 2025-03-10 at 11 35 32_9aca4ef7](https://github.com/user-attachments/assets/f9585be1-6aa0-45d0-8919-e9f04d8ea788)
 
 
-intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+## intitle: 
+This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 
 ![WhatsApp Image 2025-03-10 at 11 35 31_7efa942c](https://github.com/user-attachments/assets/c488de79-faff-4193-b2ab-c04e4fb4a5ff)
 
 
-link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+## link: 
+This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
 ![WhatsApp Image 2025-03-10 at 11 35 31_33459338](https://github.com/user-attachments/assets/977a4558-4646-45ef-bb93-bcff1ea7901c)
 
 
-cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+## cache: 
+This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
 ![Screenshot 2025-03-11 143455](https://github.com/user-attachments/assets/a746d574-7fa8-4a58-9f49-1c7e5223c7d0)
 
-#DNS Enumeration
+## DNS Enumeration
 
 
-##DNS Recon
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
@@ -79,7 +86,7 @@ Top level domain expansion
 
 ![Screenshot 2025-03-10 113347](https://github.com/user-attachments/assets/f57ef2a0-63f7-4428-b78d-f9bf9344294f)
 
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -96,7 +103,7 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 ![Screenshot 2025-03-10 113402](https://github.com/user-attachments/assets/2100f70c-f914-4b09-b3f7-49163746606c)
 ![Screenshot 2025-03-10 113422](https://github.com/user-attachments/assets/e1ce01a1-8ef2-49f2-80ee-d1ac83826db4)
 
-##smtp-user-enum
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
@@ -107,12 +114,12 @@ select any username in the first column of the above file and check the same
 ![Screenshot 2025-03-10 113549](https://github.com/user-attachments/assets/a8865b34-de0d-4c47-beb9-f9d3d69e0fdd)
 
 
-#Telnet for smtp enumeration
+# Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
+ ## Output
   
 ![Screenshot 2025-03-11 144104](https://github.com/user-attachments/assets/dabc5c03-93a5-4268-8487-b5e26d1b4835)
 
