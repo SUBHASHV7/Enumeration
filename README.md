@@ -121,7 +121,8 @@ and issue appropriate commands
   
  ## Output
   
-![Screenshot 2025-03-11 144104](https://github.com/user-attachments/assets/dabc5c03-93a5-4268-8487-b5e26d1b4835)
+![Screenshot 2025-03-14 145554](https://github.com/user-attachments/assets/dfbefbec-e985-4ca8-b5dc-4e35dee44efb)
+
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
